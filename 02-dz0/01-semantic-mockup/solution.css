@@ -1,0 +1,33 @@
+* {
+    color: white;
+}
+
+h1 {
+    background: red;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    margin: 10px 0 0;
+}
+
+nav {
+    background: orange;
+    display: flex;
+    justify-content: center;
+    gap: 16px;
+    border: solid 10px orange;
+}
+
+article {
+    background: blue;
+    border: solid 10px green;
+    padding: 16px;
+}
+
+footer {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    background: #7048E8;
+    padding: 10px;
+}
