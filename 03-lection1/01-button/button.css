@@ -1,12 +1,5 @@
 /* Стилизация кнопки */
 
-.container {
-    display: flex;
-    gap: 8px;
-    flex-wrap: wrap;
-    width: 700px;
-}
-
 .button {
     height: 48px;
     border: none;
