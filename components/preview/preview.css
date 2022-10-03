@@ -1,4 +1,19 @@
 .preview {
-    height: 400px;
-    background: #F9FAFC;
+    background: var(--grey-5);
+}
+
+.preview__wrapper {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 30px;
+    padding: 68px 0;
+}
+
+.preview__card {
+    display: inline-block;
+    background: var(--white);
+    border-radius: 12px;
+    width: 350px;
+    height: 367px;
+    box-shadow: 0px 2px 4px rgba(33, 36, 41, 0.05);
 }
