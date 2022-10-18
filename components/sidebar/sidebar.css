@@ -1,0 +1,48 @@
+.sidebar {}
+
+.sidebar__title {
+    font-family: Inter;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 26px;
+    color: #000000;
+    margin-bottom: 16px;
+
+}
+
+.sidebar__menu {}
+
+.sidebar__list {
+    display: flex;
+    flex-direction: column;
+    gap: 4px;
+    cursor: pointer;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 22px;
+    color: var(--black);
+}
+
+.sidebar__item {}
+
+.sidebar__item:nth-last-child(2) {
+    margin-bottom: 26px;
+}
+
+.sidebar__item:hover {
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 22px;
+    color: #D84910;
+}
+
+@media screen and (max-width: 570px) {
+    .sidebar {
+        display: none;
+    }
+}
