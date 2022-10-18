@@ -2,10 +2,46 @@
 <!-- Страница с кнопкой переключения -->
 <html lang="ru">
     <head>
+        <meta charset="UTF-8">
         <link rel="stylesheet" href="../../assets/css/main.css">
         <link rel="stylesheet" href="./toggler.css">
     </head>
     <body>
+    <label class="toggle">
+        <input type="checkbox" class="toggle__input">
+        <div class="toggle__state">
+            <div class="toggle__control">
+                <div class="toggle__icon">
+<!--                    <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">-->
+<!--                        <rect width="24" height="24" rx="12" fill="#DDE2E5"/>-->
+<!--                    </svg>-->
+                </div>
+            </div>
+            <div class="toggle__title">Off</div>
+        </div>
+    </label>
 
+    <label class="toggle">
+        <input type="checkbox" class="toggle__input" checked>
+        <div class="toggle__state">
+            <div class="toggle__control">
+                <div class="toggle__icon">
+                </div>
+            </div>
+            <div class="toggle__title">On</div>
+        </div>
+    </label>
+
+    <label class="toggle">
+        <input type="checkbox" class="toggle__input" disabled>
+        <div class="toggle__state">
+            <div class="toggle__control">
+                <div class="toggle__icon">
+                </div>
+            </div>
+            <div class="toggle__title">Disabled</div>
+        </div>
+    </label>
+    
     </body>
 </html>
