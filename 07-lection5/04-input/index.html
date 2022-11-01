@@ -2,10 +2,49 @@
 <!-- Страница с полем ввода -->
 <html lang="ru">
     <head>
+        <meta charset="UTF-8">
         <link rel="stylesheet" href="../../assets/css/main.css">
         <link rel="stylesheet" href="./input.css">
     </head>
     <body>
+
+    <div class="input">
+        <label class="input__label" for="inputDisabled">Disabled</label>
+        <div class="input__wrapper">
+            <input type="text" class="input__text" placeholder="Disabled" id="inputDisabled" value="" disabled>
+        </div>
+    </div>
+
+    <div class="input">
+        <label class="input__label" for="inputAutoFocus">Label</label>
+        <div class="input__wrapper">
+            <input type="text" class="input__text" placeholder="Placeholder" id="inputAutoFocus" autofocus>
+        </div>
+    </div>
+
+    <div class="input">
+        <label class="input__label" for="inputSuccess">Success</label>
+        <div class="input__wrapper">
+            <input type="text" class="input__text" placeholder="Success" id="inputSuccess" value="Success">
+            <div class="input__icon icon__success">
+                <svg>
+                    <use href="../../assets/images/icons-sprite.svg#success" />
+                </svg>
+            </div>
+        </div>
+    </div>
+
+    <div class="input">
+        <label class="input__label" for="inputError">Error</label>
+        <div class="input__wrapper">
+            <input type="text" class="input__text input__invalid" placeholder="Error" id="inputError" value="Error">
+            <div class="input__icon icon__error">
+                <svg>
+                    <use href="../../assets/images/icons-sprite.svg#error" />
+                </svg>
+            </div>
+        </div>
+    </div>
 
     </body>
 </html>
